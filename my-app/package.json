@@ -1,5 +1,5 @@
 {
-  "homepage": "https://sjackson4430.github.io/PROJ4"
+  "homepage": "https://sjackson4430.github.io/PROJ4",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
