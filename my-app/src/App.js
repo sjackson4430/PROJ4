@@ -3,7 +3,7 @@ import axios from 'axios';
 
 function App() {
   const [articles, setArticles] = useState([]);
-  const apiKey = '<YOUR_API_KEY>'; // Replace with your actual API key
+  const apiKey = 'eacf10415ce14e98a74fa63bf461f51f'; // Replace with your actual API key
 
   useEffect(() => {
     axios.get(`https://newsapi.org/v2/top-headlines?country=us&apiKey=${eacf10415ce14e98a74fa63bf461f51f}`)
